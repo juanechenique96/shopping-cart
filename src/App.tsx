@@ -4,14 +4,16 @@ import React, { FC } from 'react';
 // Components
 import { CardList } from './components/CardList'
 import { Header } from './components/Header'
+import { Hero } from './components/Hero'
 //Styles
 import { GlobalStyle } from './styles/global.styles';
 
 const App: FC = () => {
   return (
     <div>
-      <Header />
       <GlobalStyle />
+      <Header />
+      <Hero />
       <CardList />
     </div>
   )
