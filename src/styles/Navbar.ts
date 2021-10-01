@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Navbar = styled.header`
   width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 13vh;
 
   .navbar {
@@ -12,6 +14,7 @@ export const Navbar = styled.header`
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background-color: white;
     height: 10vh;
+    width: 100%;
   }
 
   .fixed-top {
@@ -28,19 +31,19 @@ export const Navbar = styled.header`
     align-items: center;
   }
 
-  .navbar ul {
+  .nav-menu {
     display: flex;
     justify-content: space-between;
     width: 360px;
   }
 
-  .navbar ul li {
+  .nav-menu li {
     font-size: 24px;
     font-weight: 500;
     cursor: pointer;
   }
 
-  .navbar ul li:hover {
+  .nav-menu li:hover {
     color: #054bf0;
   }
 
@@ -72,5 +75,97 @@ export const Navbar = styled.header`
     display: none;
     width: 32px;
     height: auto;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+  }
+
+  @media only screen and (max-width: 890px) {
+    .business-logo {
+      position: fixed;
+      left: 40px;
+      font-size: 24px;
+    }
+
+    .header-logos {
+      position: fixed;
+      right: 10px;
+      text-align: right;
+    }
+
+    .header-logos img {
+      margin-right: 20px;
+    }
+
+    .nav-menu {
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+      position: fixed;
+      left: -100%;
+      top: 70px;
+      width: 100%;
+      height: 120px;
+      font-weight: 600;
+      background-color: white;
+    }
+
+    .nav-menu li {
+      font-size: 18px;
+    }
+
+    .nav-menu.active {
+      left: 0;
+    }
+
+    .menu {
+      display: block;
+      cursor: pointer;
+    }
+  }
+
+  @media only screen and (min-width: 360px) {
+    .header-logos {
+      padding-left: 10px;
+    }
+
+    .nav-menu {
+      top: 49px;
+    }
+
+    .business-logo {
+      left: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .search,
+    .shopping-cart {
+      display: none;
+    }
+
+    .menu {
+      position: fixed;
+      right: 0px;
+    }
+
+    .business-logo {
+      left: 20px;
+    }
+
+    .nav-menu {
+      top: 49px;
+    }
   }
 `;

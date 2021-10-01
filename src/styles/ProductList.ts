@@ -24,4 +24,20 @@ export const ProductList = styled.div`
     justify-content: flex-start;
     margin-left: 25px;
   }
+
+  @media only screen and (max-width: 720px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container:nth-child(odd) {
+    justify-content: center;
+    margin-right: 0px;
+  }
+  .container:nth-child(even) {
+    justify-content: center;
+    margin-left: 0px;
+  }
 `;

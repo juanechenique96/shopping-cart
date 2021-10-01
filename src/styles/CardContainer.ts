@@ -55,4 +55,21 @@ export const CardContainer = styled.div`
     object-fit: scale-down;
     object-position: center center;
   }
+
+  @media only screen and (max-width: 420px) {
+    width: 260px;
+    height: 400px;
+
+    h1 {
+      margin-top: 3px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .image-container {
+      width: 200px;
+      height: 300px;
+      padding: 0px 30px 30px 30px;
+    }
+  }
 `;

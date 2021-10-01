@@ -31,4 +31,22 @@ export const HeroSection = styled.section`
     color: rgba(255, 255, 255, 0.8);
     text-shadow: 4px 4px 2px rgba(2, 30, 93, 0.7);
   }
+
+  @media only screen and (max-width: 890px) {
+    .hero-title h1 {
+      font-size: 64px;
+    }
+  }
+
+  @media only screen and (max-width: 580px) {
+    .hero-title h1 {
+      font-size: 36px;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .hero-title h1 {
+      font-size: 30px;
+    }
+  }
 `;
