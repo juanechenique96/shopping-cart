@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Shopping cart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fue creado utilizando React + TypeScript consumiendo la api publica de Fake Store Api para mostrar una serie de productos en el home de la pagina.
 
-## Available Scripts
+## Comenzando
 
-In the project directory, you can run:
+Para usar esta aplicacion lo unico que debes hacer es clonar este repositorio, descargar dependecias y ejecutarlo:
 
-### `yarn start`
+```bash
+git clone https://github.com/juanechenique96/shopping-cart.git
+yarn
+yarn start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Imagenes del proyecto
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**iPhone x (375x812)**
 
-### `yarn test`
+![Localhost - iPhone X - 2021-10-1 at 03 22 51](https://user-images.githubusercontent.com/57737409/135669157-5e65a135-0612-4300-b6ef-4d5c7b8d57bf.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Localhost - iPhone X - 2021-10-1 at 03 22 42](https://user-images.githubusercontent.com/57737409/135669161-90701fa8-ec0f-4571-a010-964a9d176183.jpg)
 
-### `yarn build`
+**iPad (768x1024)**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Localhost - iPad - 2021-10-1 at 03 22 57](https://user-images.githubusercontent.com/57737409/135669243-74269775-cd38-4e53-ae21-50839b4857f3.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Localhost - iPad - 2021-10-1 at 03 23 03](https://user-images.githubusercontent.com/57737409/135669255-909b0600-7d69-41c6-9e9d-fb0662eea4fa.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Generic Laptop (1280x950)**
 
-### `yarn eject`
+![Localhost - Generic Laptop - 2021-10-1 at 03 23 16](https://user-images.githubusercontent.com/57737409/135669466-01f5c422-95f7-425a-8c95-2e27763a9b99.jpg)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Localhost - Generic Laptop - 2021-10-1 at 03 23 23](https://user-images.githubusercontent.com/57737409/135669485-1ce9c5d3-857b-4cc7-b645-8ad6111ca9cb.jpg)
